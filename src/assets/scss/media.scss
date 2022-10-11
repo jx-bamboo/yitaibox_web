@@ -1,0 +1,205 @@
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1538px) {
+}
+
+// 判断ipad
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+
+}
+// mac
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1538px) {
+
+}
+
+// ipadPro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1365px) {
+ 
+}
+@media screen and (min-device-width: 1365px) {
+  
+}
+@media screen and (max-width: 767px) {
+  
+}
+
+/* ipad横屏 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* style */
+}
+
+/* ipad竖屏 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* style */
+}
+
+/* 判断iphone5 */
+/* 横屏竖屏判断方法与ipad一样 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  /* style */
+}
+
+/* 判断iphone4-iphone4s */
+/* 横屏竖屏判断方法与ipad一样 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* style */
+}
+
+/* iphone5分辨率 */
+// screen Width = 320px (css像素)
+// screen Height = 568px (css像素)
+// screen Width = 640px (实际像素)
+// screen Height = 1136px (实际像素)
+// Device-pixel-ratio:2
+// /* iphone4-iphone4s分辨率 */
+// screen Width = 320px (css像素)
+// screen Height = 480px (css像素)
+// screen Width = 640px (实际像素)
+// screen Height = 960px (实际像素)
+// Device-pixel-ratio:2
+// mac
+
+@media only screen and (min-width:700px) and (max-width: 800px) {
+  html{
+    font-size:10px;
+  }
+}
+@media only screen and (min-width:800px) and (max-width: 900px) {
+  html{
+    font-size:10.4px;
+  }
+}
+@media only screen and (min-width:900px) and (max-width: 1000px) {
+  html{
+    font-size:10.4px;
+  }
+}
+@media only screen and (min-width:1000px) and (max-width: 1100px) {
+  html{
+    font-size:10.4px;
+  }
+}
+@media only screen and (min-width:1100px) and (max-width: 1200px) {
+  html{
+    font-size:10.4px;
+  }
+}
+@media only screen and (min-width:1200px) and (max-width: 1300px) {
+  html{
+    font-size:10.4px;
+  }
+}
+@media only screen and (min-width:1300px) and (max-width: 1400px) {
+  html{
+    font-size:10.4px;
+  }
+
+}
+@media only screen and (min-width:1400px) and (max-width: 1500px) {
+  html{
+    font-size:12px;
+  }
+}
+@media only screen and (min-width:1500px) and (max-width: 1600px) {
+  html{
+    font-size:13px;
+  }
+}
+@media only screen and (min-width:1600px) and (max-width: 1700px) {
+  html{
+    font-size:16px;
+  }
+}
+@media only screen and (min-width:1700px) and (max-width: 18000px) {
+  html{
+    font-size:16px;
+  }
+}
+// 375px (iPhone 6)
+// 此为基准值, 与视觉设计稿 `宽度/2` 保持一致
+html[data-rem="375"] {
+  font-size: 20PX;
+}
+
+// 17.06 = 320*20/375 (iPhone 5)
+@media only screen and (min-width: 320px) {
+  html[data-rem="375"] {
+    font-size: 17.06PX !important;
+  }
+}
+
+// base root size (iPhone 6)
+@media only screen and (min-width: 375px) {
+  html[data-rem="375"] {
+    font-size: 20PX !important;
+  }
+}
+
+// 21.33333333 = 400*20/375 (Most Android)
+@media only screen and (min-width: 400px) {
+  html[data-rem="375"] {
+    font-size: 21.33333333PX !important;
+  }
+}
+
+// 22.08 = 414*20/375 (iPhone 6 Plus)
+@media only screen and (min-width: 414px) {
+  html[data-rem="375"] {
+    font-size: 22.08PX !important;
+  }
+}
+
+// 25.6 = 480*20/375 (iPad)
+@media only screen and (min-width: 480px) {
+  html[data-rem="375"] {
+    font-size: 25.6PX !important;
+  }
+}
+
+// 20*100/375 = 5.333333333 以 375 宽度为基准动态计算
+//html[data-rem="375"] {
+//  font-size: 5.333333333vw;
+//}
+
+// REM 适配, 用法: <html data-rem="320">
+
+// 320px (iPhone 5)
+// 此为基准值, 与视觉设计稿 `宽度/2` 保持一致
+// html[data-rem="320"] {
+//   font-size: 20PX;
+// }
+
+// // 23.4375 = 375*20/320 (Most Android)
+// @media only screen and (min-width: 375px) {
+//   html[data-rem="320"] {
+//     font-size: 23.4375PX !important;
+//   }
+// }
+
+// // 25 = 400*20/320 (Most Android)
+// @media only screen and (min-width: 400px) {
+//   html[data-rem="320"] {
+//     font-size: 25PX !important;
+//   }
+// }
+
+// // 25.875 = 414*20/320 (iPhone 6 Plus)
+// @media only screen and (min-width: 414px) {
+//   html[data-rem="320"] {
+//     font-size: 25.875PX !important;
+//   }
+// }
+
+// // 30 = 30 (iPad)
+// @media only screen and (min-width: 480px) {
+//   html[data-rem="320"] {
+//     font-size: 30PX !important;
+//   }
+// }
+
+// // 20*100/320 = 6.25 以 320 宽度为基准动态计算
+// //html[data-rem="320"] {
+// //  font-size: 6.25vw;
+// //}
+// @media only screen and (min-device-width:1700px) and (max-device-width: 1800px) {
+  
+// }
